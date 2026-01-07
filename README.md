@@ -21,6 +21,25 @@ Three lines. Your data is ready for pandas, numpy, or whatever comes next.
 
 ---
 
+## Quick-Start Guide
+
+/notebook contains a bash script that will get you up and running in seconds from either Linux or Mac OS.  
+
+ - Download this repository & unzip to your Desktop
+ - change into the ./notebook directory
+ - chmod +x setup.sh
+ - ./setup.sh
+
+You will be asked for the folloiwng: 
+Cribl Cloud Client ID
+Cribl Cloud Secret
+Cribl Cloud Org
+Cribl Cloud Workspace
+
+These variables will be saved to a .env file in the notebook directory so that nothing is exposed in your notebook. 
+
+Then, the script will launch Jupyter notebooks so that it is ready to go :)
+
 ## Before You Begin
 
 searchgoat requires three things:
@@ -393,7 +412,7 @@ For most interactive analysis, the sync interface is simpler. Async shines when 
 
 ## What searchgoat Does Not Do (Yet)
 
-Version 0.1 focuses on the core workflow: query → results → DataFrame. Some capabilities are planned for future releases:
+Version 0.5 focuses on the core workflow: query → results → DataFrame. Some capabilities are planned for future releases:
 
 **Not in v0.1:**
 - Listing available datasets
