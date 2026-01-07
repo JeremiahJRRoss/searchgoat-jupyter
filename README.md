@@ -25,10 +25,10 @@ Three lines. Your data is ready for pandas, numpy, or whatever comes next.
 
 /notebook contains a bash script that will get you up and running in seconds from either Linux or Mac OS.  
 
- - Download this repository & unzip to your Desktop
- - change into the ./notebook directory
- - chmod +x setup.sh
- - ./setup.sh
+ - Download this repository & unzip to your Desktop (let's assume the directory name is searchgoat)
+ - $ cd ~/Desktop/searchgoat/notebooks
+ - $ chmod +x setup.sh
+ - $ ./setup.sh
 
 You will be asked for the folloiwng: 
 Cribl Cloud Client ID
