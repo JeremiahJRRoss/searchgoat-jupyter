@@ -36,7 +36,7 @@ You will be asked for the folloiwng:
 - Cribl Cloud Org
 - Cribl Cloud Workspace
 
-These variables will be saved to a .env file in the notebook directory so that nothing is exposed in your notebook. 
+These variables will be saved to a .env file in the notebooks directory so that your authorization credentials & Cribl Cloud identifiers are never exposed in your code. 
 
 Then, the script will launch Jupyter notebooks. 
  - Click on your notebook file and view the demo script.
