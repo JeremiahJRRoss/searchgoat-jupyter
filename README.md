@@ -21,6 +21,12 @@ Three lines. Your data is ready for pandas, numpy, or whatever comes next.
 
 ---
 
+## How not to use searchgoat (a very clear disclaimer) 
+If you are query someone else's data (e.g. an employer, client, customer) you should never do anything that breaks their policies. 
+ - There are legal compliance and governance requirements
+ - There are security requirements
+Use this tool with great discretion and always be mindful of your security posture. Don't just trust, verify!
+
 ## Quick-Start Guide
 
 ./notebooks contains a bash script that will get you up and running in seconds from either Linux or Mac OS.  
