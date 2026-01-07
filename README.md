@@ -4,7 +4,7 @@
 
 ---
 
-## What searchgoat Does
+## What searchgoat does
 
 Every data analyst knows the feeling: you need data from Cribl Search, and you need it in a DataFrame. The path from query to analysis should be a straight line. Too often, it isn't.
 
@@ -23,11 +23,13 @@ Three lines. Your data is ready for pandas, numpy, or whatever comes next.
 
 ## How not to use searchgoat (a very clear disclaimer) 
 If you are querying someone else's data (e.g. an employer, client, customer) you should never do anything that violates their policies. 
- - There are legal compliance and governance requirements
+
+ - There are legal compliance requirements
+ - There are data governance requirements
  - There are security requirements
  - There are privacy requirements
 
-Data available to Cribl Search may not be suitable for the platform you are pulling that data into. Think about it before you do it.
+Data available Cribl Search may not be suitable for the platform you are pulling that data into. Think about it before you do it.
 
 Use this tool with great discretion and always be mindful of your security posture. Don't just trust, verify!
 
