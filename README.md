@@ -23,22 +23,27 @@ Three lines. Your data is ready for pandas, numpy, or whatever comes next.
 
 ## Quick-Start Guide
 
-/notebook contains a bash script that will get you up and running in seconds from either Linux or Mac OS.  
+./notebooks contains a bash script that will get you up and running in seconds from either Linux or Mac OS.  
 
- - Download this repository & unzip to your Desktop (let's assume the directory name is searchgoat)
- - $ cd ~/Desktop/searchgoat/notebooks
- - $ chmod +x setup.sh
- - $ ./setup.sh
+Download this repository & unzip to your Desktop (let's assume the directory name is searchgoat). Then, from your terminal: 
+1) cd ~/Desktop/searchgoat/notebooks
+2) chmod +x setup.sh
+3) ./setup.sh
 
 You will be asked for the folloiwng: 
-Cribl Cloud Client ID
-Cribl Cloud Secret
-Cribl Cloud Org
-Cribl Cloud Workspace
+- Cribl Cloud Client ID
+- Cribl Cloud Secret
+- Cribl Cloud Org
+- Cribl Cloud Workspace
 
 These variables will be saved to a .env file in the notebook directory so that nothing is exposed in your notebook. 
 
-Then, the script will launch Jupyter notebooks so that it is ready to go :)
+Then, the script will launch Jupyter notebooks. 
+ - Click on your notebook file and view the demo script.
+ - Update your dataset & query
+ - Run each cell from top to bottom
+ - Start thinking about how you would like to use searchgoat
+   
 
 ## Before You Begin
 
